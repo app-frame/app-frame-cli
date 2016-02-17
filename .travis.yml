@@ -12,3 +12,4 @@ deploy:
   on:
     tags: true
     repo: app-frame/app-frame-cli
+
