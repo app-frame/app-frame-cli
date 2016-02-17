@@ -1,0 +1,33 @@
+{
+  "name": "app-frame-cli",
+  "version": "0.0.1",
+  "description": "App Frame CLI",
+  "main": "bin/cmd.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/app-frame/app-frame-cli.git"
+  },
+  "keywords": [
+    "app-frame"
+  ],
+  "bin": {
+    "app-frame": "bin/cmd.js"
+  },
+  "author": "Adipat Larprattanakul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/app-frame/app-frame-cli/issues"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "predeploy": "npm install",
+    "deploy": "grunt"
+  },
+  "homepage": "https://github.com/app-frame/app-frame-cli#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bump": "^0.7.0",
+    "load-grunt-tasks": "^3.4.0",
+    "mocha": "^2.4.5"
+  }
+}

@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- node
+- 4.2.6
+- '4.1'
+- '4.0'
+deploy:
+  provider: npm
+  email: adipatl.se@gmail.com
+  api_key:
+    secure: FU75TGVl5XuxXFUaGLqc6w8whKnDHnVmCohsFqJsKBLLpexBJ4oM+aASQZtqFThjxlTOX26+4GAz8YEeVO544bojrL2lIOIw0YMbwvR07CCldWn9TvLUpSkXjmbQWSb//YXxDS/Ek+GvoC7xA2vTrq6jcnXEkG7gO/b7/SNIihb1EMWeTffV8y2iNKC/GH7Wr1Mpd8hNTqzX867Yqj540lhrDaBOuWxA+SEq5VZPEEMUePYrmhCinr3njwX8P2Jaz2vEPZiiuoGcuWDoDtZbiSnQeg6z74w2VEOmqepT7J7NJyI/t+hTKz0bcgSgD5AS+jbrNed/DTUpdAzXjSMmCZsIn9JF9QR86pRAUDJBEo6e7ZTf8lo0QNJkuZWNbtpxq4JFB4GiYNXnWV31Tye3frVQjFfIJsUoYGnfVUVI97/9KBam+SK1wAl9c6TvFGPA8c+XcxRLAoeqI8hl7ziROoS0DOu2cKhEjdsvfxjFPAUaEp/PJe1tx6b+9PRfCUshPwuE16U6j54EsIZ+dw9DUyJJfzQvZNlEahQx9ligPCD4KY6Dzp1m59qeXFbCv4Rycd8d0RpRIJyop9OQEV+Hn7T262qaQNh/Cx64LrDkdMS5gsmFsJ8CsPCAwTW1aH4EDe5tup27WnVjoq7fqS3a/n4dp96Lj8J9ORa9/Nt6tio=
+  on:
+    tags: true
+    repo: app-frame/app-frame-cli
