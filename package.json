@@ -20,10 +20,15 @@
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha",
+    
     "predeploy": "npm install",
     "deploy": "grunt",
+    
     "preopenci": "npm install",
-    "openci": "node utilities/openci.js"
+    "openci": "node utilities/openci.js",
+    
+    "preopengithub": "npm install",
+    "opengithub": "node utilities/opengithub.js"
   },
   "homepage": "https://github.com/app-frame/app-frame-cli#readme",
   "devDependencies": {
