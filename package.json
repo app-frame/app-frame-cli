@@ -25,10 +25,13 @@
     "deploy": "grunt",
     
     "preopenci": "npm install",
-    "openci": "node utilities/openci.js",
+    "openci": "node utilities/open.js https://travis-ci.org/app-frame/app-frame-cli",
     
     "preopengithub": "npm install",
-    "opengithub": "node utilities/opengithub.js"
+    "opengithub": "node utilities/open.js https://github.com/app-frame/app-frame-cli",
+    
+    "preopennpm": "npm install",
+    "opennpm": "node utilities/open.js https://www.npmjs.com/package/app-frame-cli"
   },
   "homepage": "https://github.com/app-frame/app-frame-cli#readme",
   "devDependencies": {
