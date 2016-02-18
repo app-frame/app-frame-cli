@@ -4,5 +4,6 @@
 
 app-frame commandline interface
 
+- npm install -g app-frame-cli
 - app-frame create electron
 - npm start
