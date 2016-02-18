@@ -1,6 +1,6 @@
 {
   "name": "app-frame-cli",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "App Frame CLI",
   "main": "bin/cmd.js",
   "repository": {
