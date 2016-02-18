@@ -2,7 +2,7 @@
 var Download = require('download');
  
 function createElectronApp() {    
-    console.log('cloning electron sample...')
+    console.log('downloading electron sample...')
     new Download(
         {
             mode: '755',
