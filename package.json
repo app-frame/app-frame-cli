@@ -21,7 +21,9 @@
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha",
     "predeploy": "npm install",
-    "deploy": "grunt"
+    "deploy": "grunt",
+    "preopenci": "npm install",
+    "openci": "node utilities/openci.js"
   },
   "homepage": "https://github.com/app-frame/app-frame-cli#readme",
   "devDependencies": {
@@ -29,7 +31,8 @@
     "grunt-bump": "^0.7.0",
     "grunt-cli": "^0.1.13",
     "load-grunt-tasks": "^3.4.0",
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "open": "0.0.5"
   },
   "dependencies": {
     "download": "^4.4.3"
