@@ -29,5 +29,8 @@
     "grunt-bump": "^0.7.0",
     "load-grunt-tasks": "^3.4.0",
     "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "download": "^4.4.3"
   }
 }
