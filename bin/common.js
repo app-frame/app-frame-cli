@@ -18,6 +18,7 @@ function createElectronApp() {
             }
             else
                 console.log('download successful');
+                console.log('Enter "npm start" to open the sample app-frame');
         });
 }
 
